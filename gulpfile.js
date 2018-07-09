@@ -59,7 +59,7 @@ gulp.task('default', function() {
 
 // Compile css from sass files
 gulp.task('sass', function() {
-  return gulp.src(['node_modules/bulma/bulma.sass', 'src/sass/*.sass'])
+  return gulp.src(['node_modules/bulma/custom-bulma.sass'])
     .pipe(sass())
     .pipe(print())
     .pipe(cssmin())
