@@ -2,5 +2,6 @@ $RECYCLE.BIN/
 .DS_Store
 *.sw[p-z]
 *~
+.vscode
 
 node_modules
