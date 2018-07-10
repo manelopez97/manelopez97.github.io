@@ -1,11 +1,4 @@
-<head>
-  <link rel="stylesheet" href="/css/custom-bulma.min.css">
-
-  <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
-
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-</head>
+{{ partial "head.html" . }}
 
 <body>
 
@@ -15,10 +8,7 @@
         <h1 class="title">
             Hola, soy Mané López.
         </h1>
-        <br>
-        <h2></h2>
-        <h2></h2>
-        <h2></h2>
+        <h2>Me gusta la música.</h2>
       </div>
     </div>
 
@@ -27,9 +17,13 @@
       <nav class="tabs">
         <div class="container">
           <ul>
-            <li><a>Biografía</a></li>
-            <li><a>Artículos seleccionados</a></li>
-            <li><a>Contacto</a></li>
+            {{ with .Site.Menus.main}}
+              {{ range sort . }}
+                <li><a href="{{ .URL | absLangURL }}">
+                    {{ .Name }}
+                </a></li>
+              {{ end }}
+            {{ end }}
           </ul>
         </div>
       </nav>

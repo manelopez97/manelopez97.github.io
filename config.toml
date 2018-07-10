@@ -1,4 +1,17 @@
 baseURL = "http://example.org/"
 theme = "manelopez"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Mané López"
+
+[[menu.main]]
+  name = "Biografía"
+  weight = 1
+  url  = "/bio/"
+[[menu.main]]
+  name = "Periodismo musical"
+  weight = 2
+  url = "/fragmentos/"
+[[menu.main]]
+  name = "Contacto"
+  weight = 3
+  url = "/contacto/"
