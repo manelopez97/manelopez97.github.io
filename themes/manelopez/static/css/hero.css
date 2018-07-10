@@ -11,9 +11,7 @@ html {
 .hero {
   background-color: black;
   color: white;
-}
 
-.hero-body {
   background-image: url(../img/hero.jpg);
   background-repeat: no-repeat;
   background-position: center; 
