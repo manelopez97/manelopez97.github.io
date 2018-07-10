@@ -1,8 +1,9 @@
 html
-  background-color: black;
+  background-color: black
+  --vh-offset: 0px
 
 .tiledBackground
-  background-size: 450px;
+  background-size: 450px
 
 .hero
   background-color: black;
@@ -11,6 +12,10 @@ html
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 80%, rgba(0, 0, 0, 0.7)), url(../img/hero.jpg);
   background-repeat: no-repeat;
   background-position: center; 
+
+  &.is-fullheight
+    min-height: 100vh
+    min-height: calc(100vh - var(--vh-offset))
 
 
 .hero-body h2
