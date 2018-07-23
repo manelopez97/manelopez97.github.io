@@ -1,0 +1,40 @@
+#index-body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 80%, rgba(0, 0, 0, 0.7)), url(../img/hero.jpg);
+
+  @media screen and (max-width: $break-large) {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 0.7)), url(../img/hero.jpg);
+  }
+
+  background-repeat: no-repeat;
+  background-position: center; 
+}
+
+.hero {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+
+  flex-wrap: wrap;
+}
+
+.hero-body {
+  width: 100%;
+}
+
+.hero-body h2 {
+  font-weight: 700;
+}
+  
+
+.title {
+  font-family: "Space Mono";
+  font-size: 2rem;
+  font-weight: 700;
+  color: white;
+}
+  
+  

@@ -1,14 +1,41 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site</title>
+    <title>Mané López</title>
     <link>http://example.org/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <description>Recent content on Mané López</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>es-es</language>
     
 	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Biografía</title>
+      <link>http://example.org/bio/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/bio/</guid>
+      <description>Mané López nació en Granada en 1997. Desde pequeño se vio inmerso en una familia con intereses musicales. Gracias a su tío abuelo, dueño de Discos Candilejas, circulaban novedades discográficas por su hogar. En su adolescencia se dejó llevar por la necesidad de compartir la música que descubría y fundó un humilde blog que respondía al interés de hablar sobre grupos. Este interés adquirió mayor peso con los años, ya que fueron surgiendo colaboraciones en medios nacionales (Sombras de Gigantes, Youth Live Music, Farhampton Magazine, Hipsterian Circus&amp;hellip;) hasta radicar en El Quinto Beatle, medio musical español donde principalmente redacta críticas, entrevistas y reportajes musicales.</description>
+    </item>
+    
+    <item>
+      <title>Contacto</title>
+      <link>http://example.org/contacto/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/contacto/</guid>
+      <description> </description>
+    </item>
+    
+    <item>
+      <title>Prueba 1</title>
+      <link>http://example.org/extractos/prueba1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/extractos/prueba1/</guid>
+      <description>Esto es una prueba</description>
+    </item>
     
   </channel>
 </rss>

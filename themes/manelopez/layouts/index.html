@@ -1,8 +1,10 @@
 {{ partial "head.html" . }}
 
-<body>
+<body id="index-body">
 
-  <section class="hero is-fullheight">
+  {{ partial "header.html" . }}
+
+  <section class="hero">
     <div class="hero-body">
       <div class="container">
         <h1 class="title">
@@ -11,22 +13,6 @@
         <h2>Me gusta la música.</h2>
       </div>
     </div>
-
-    <!-- Hero footer: will stick at the bottom -->
-    <div class="hero-foot">
-      <nav class="tabs">
-        <div class="container">
-          <ul>
-            {{ with .Site.Menus.main}}
-              {{ range sort . }}
-                <li><a href="{{ .URL | absLangURL }}">
-                    {{ .Name }}
-                </a></li>
-              {{ end }}
-            {{ end }}
-          </ul>
-        </div>
-      </nav>
-    </div>
   </section>
+
 </body>

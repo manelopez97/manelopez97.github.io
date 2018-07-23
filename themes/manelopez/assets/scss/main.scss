@@ -1,0 +1,109 @@
+$break-medium: 600px;
+$break-large: 1000px;
+
+@import 'normalize';
+@import 'index';
+
+body a {
+  
+  text-decoration: none;
+  border-bottom: .1em dotted;
+
+  color: white;
+  background: #0a0a0a none repeat scroll 0 0;
+}
+
+body a:hover {
+  outline: 0;
+
+  border-bottom-style: solid;
+  border-bottom-color: inherit;
+}
+
+body a:visited {
+  //color: #e888b6;
+  color: white;
+}
+
+
+html {
+  font-family: 'Space Mono', 'Courier New', Courier, monospace;
+
+  background-color: black;
+  color: white;
+}
+
+body {
+
+  max-width: 1000px;
+  margin: auto;
+  margin-top: 0;
+  padding: 0;
+
+  @media screen and (max-width: $break-large) {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+}
+
+body .container p {
+  line-height: 1.5;
+
+  @media screen and (min-width: $break-medium) {
+    font-size: 1.2em;
+  }
+  
+}
+
+.main-header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.main-header-title {
+  float: left;
+
+  @media screen and (max-width: $break-medium) {
+    float: none;
+
+    margin: 16px;
+    margin-left: 0px;
+  }
+}
+
+.main-header a {
+  background: none;
+}
+
+.main-header a:visited {
+  color: white;
+}
+
+.main-header li {
+  float: right;
+
+  @media screen and (max-width: $break-medium) {
+    float: none;
+    display: inline-block;
+  }
+}
+
+@media screen and (min-width: $break-medium) {
+  .main-header li:first-child a {
+    margin-right: 0;
+  }
+}
+
+.main-header li a {
+  display: block;
+  color: white;
+  text-align: center;
+  margin: 16px;
+
+  @media screen and (max-width: $break-medium) {
+    margin-left: 0px;
+  }
+}

@@ -1,27 +1,17 @@
-<nav class="navbar" role="navigation" aria-label="main navigation">
-  <div class="container">
-    <div class="navbar-brand">
-        <a class="navbar-item" href="">
-          <h1>Mané López</h1>
-        </a>
+<header class="main-header">
+    <div class="main-header-title">
+      <p><a href="{{ .Site.BaseURL }}">Mané López</a></p>
+    </div>
     
-        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-        </a>
-    </div>
-    <div class="navbar-menu">
-      <div class="navbar-end">
-          <!-- navbar items -->
-          {{ with .Site.Menus.main}}
-            {{ range sort . }}
-                <a class="navbar-item" href="{{ .URL | absLangURL }}">
-                  {{ .Name }}
-                </a>
-            {{ end }}
+    <nav>
+      <ul>
+        {{ with .Site.Menus.main}}
+          {{ range sort . }}
+            <li><a href="{{ .URL | absLangURL }}">
+              {{ .Name }}
+            </a></li>
           {{ end }}
-      </div>
-    </div>
-  </div>
-</nav>
+        {{ end }}
+      </ul>
+    </nav> 
+  </header>

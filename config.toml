@@ -1,6 +1,6 @@
 baseURL = "http://example.org/"
 theme = "manelopez"
-languageCode = "en-us"
+languageCode = "es-es"
 title = "Mané López"
 
 [[menu.main]]
@@ -10,7 +10,7 @@ title = "Mané López"
 [[menu.main]]
   name = "Periodismo musical"
   weight = 2
-  url = "/fragmentos/"
+  url = "/extractos/"
 [[menu.main]]
   name = "Contacto"
   weight = 3
