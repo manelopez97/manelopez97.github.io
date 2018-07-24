@@ -21,12 +21,24 @@
   </url>
   
   <url>
+    <loc>http://example.org/extractos/prueba1/</loc>
+  </url>
+  
+  <url>
     <loc>http://example.org/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/extractos/prueba1/</loc>
+    <loc>http://example.org/extractos/prueba2/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/extractos/prueba3/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/extractos/prueba4/</loc>
   </url>
   
   <url>

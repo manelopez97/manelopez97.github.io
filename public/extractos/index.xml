@@ -11,11 +11,39 @@
     
     
     <item>
-      <title>Prueba 1</title>
+      <title>In a Tidal Wave of Mistery</title>
       <link>http://example.org/extractos/prueba1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/extractos/prueba1/</guid>
+      <description>Esto es una prueba de contenido en la que digo: bla bla blablabla bla bla bla.
+En este párrafo digo otra cosa.</description>
+    </item>
+    
+    <item>
+      <title>Prueba 2</title>
+      <link>http://example.org/extractos/prueba2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/extractos/prueba2/</guid>
+      <description>Esto es una prueba</description>
+    </item>
+    
+    <item>
+      <title>Prueba 2</title>
+      <link>http://example.org/extractos/prueba3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/extractos/prueba3/</guid>
+      <description>Esto es una prueba</description>
+    </item>
+    
+    <item>
+      <title>Prueba 2</title>
+      <link>http://example.org/extractos/prueba4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/extractos/prueba4/</guid>
       <description>Esto es una prueba</description>
     </item>
     
