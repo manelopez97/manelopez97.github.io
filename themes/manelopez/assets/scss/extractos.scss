@@ -11,12 +11,6 @@
   margin-bottom: 48px;
 }
 
-.extracto-grid .extracto {
-  width: 32%;
-
-  margin-bottom: 48px;
-}
-
 @media (max-width: $break-medium) {
   .extracto-grid {
     display: block;
@@ -35,3 +29,35 @@
   border: none;
   background: none;
 }
+
+.extracto-single-grid {
+  display: flex;
+
+  justify-content: space-between;
+}
+
+.extracto-single-grid .col {
+  width: 49%;
+}
+
+@media (max-width: $break-medium) {
+  .extracto-single-grid {
+    display: block;
+  }
+
+  .extracto-single-grid .col {
+    width: 100%;
+  }
+}
+
+.extracto-single-grid .col img {
+  width: 100%;
+}
+
+@media (min-width: $break-medium) {
+  .extracto-single-grid .col.text p:first-child {
+    margin-top: 0;
+  }
+}
+
+

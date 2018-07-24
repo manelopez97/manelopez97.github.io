@@ -1,0 +1,30 @@
+{{ define "main" }}
+
+<div class="container">
+  <section>
+      <article>
+        <header>
+          <h1>{{ .Title }}</h1>
+        </header>
+    
+        <div class="extracto-single-grid">
+          <div class="col">
+            {{ with .Resources }}
+              {{ with .GetMatch "{cover.*,*.jpg,*.png,*.jpeg}" }}
+                   {{ $cover := .Resize "600x" }}
+                   {{ with $cover }}
+                       <a href="{{ .Permalink }}" class="img-permalink"><img src="{{ .Permalink }}"/>      </a>
+                   {{ end }}
+              {{ end }}
+            {{ end }}
+          </div>
+          <div class="col text">
+              {{ .Content }}
+          </div>
+        </div>
+        
+      </article>
+  </section>
+</div>
+  
+{{ end }}
