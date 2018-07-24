@@ -6,11 +6,13 @@
 
     {{ .Content }}
 
-    {{ $paginator := .Paginate .Data.Pages }}
-    {{ range $paginator.Pages }}
-        {{ .Render "summary" }}
-    {{ end }}
-
+    <div class="extracto-grid">
+        {{ $paginator := .Paginate .Data.Pages }}
+        {{ range $paginator.Pages }}
+            {{ .Render "extracto" }}
+        {{ end }}
+    </div>
+    
    
 </div>
   

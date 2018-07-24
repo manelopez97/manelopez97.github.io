@@ -1,0 +1,51 @@
+.main-header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.main-header-title {
+  float: left;
+
+  @media screen and (max-width: $break-medium) {
+    float: none;
+
+    margin: 16px;
+    margin-left: 0px;
+  }
+}
+
+.main-header a {
+  background: none;
+}
+
+.main-header a:visited {
+  color: white;
+}
+
+.main-header li {
+  float: right;
+
+  @media screen and (max-width: $break-medium) {
+    float: none;
+    display: inline-block;
+  }
+}
+
+@media screen and (min-width: $break-medium) {
+  .main-header li:first-child a {
+    margin-right: 0;
+  }
+}
+
+.main-header li a {
+  display: block;
+  color: white;
+  text-align: center;
+  margin: 16px;
+
+  @media screen and (max-width: $break-medium) {
+    margin-left: 0px;
+  }
+}

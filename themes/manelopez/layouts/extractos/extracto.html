@@ -1,0 +1,23 @@
+<div class="extracto">
+
+        {{ $pageLink := .Permalink }}     
+    
+    {{ with .Resources }}
+        {{ with .GetMatch "{cover.*,*.jpg,*.png,*.jpeg}" }}
+             {{ $cover := .Resize "600x" }}
+             {{ with $cover }}
+                 <a href="{{ $pageLink }}" class="img-permalink"><img src="{{ .Permalink }}"/>      </a>
+             {{ end }}
+        {{ end }}
+    {{ end }}
+
+    <h2>
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+    </h2>
+
+    {{ partial "post-meta" . }}
+    <p>Publicado en <a href="{{ .Params.siteUrl }}">{{ .Params.site }}</a></p>
+</div>
+    
+
+    
