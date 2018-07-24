@@ -5,6 +5,11 @@
       <article>
         <header>
           <h1>{{ .Title }}</h1>
+          {{ if .Params.group }}
+            <h3>
+                <p>{{ .Params.group }}</p>
+            </h3>
+          {{ end }}
         </header>
     
         <div class="extracto-single-grid">
@@ -20,7 +25,11 @@
           </div>
           <div class="col text">
               {{ .Content }}
+              <br>
+              <p>Lee el texto completo en: <a href="{{ .Params.siteUrl }}">{{ .Params.site }}</a></p>
           </div>
+
+          
         </div>
         
       </article>

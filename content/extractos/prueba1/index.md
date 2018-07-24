@@ -1,5 +1,6 @@
 ---
-title: "Prueba 1"
+title: "In a Tidal Wave of Mistery"
+group: "Capital Cities"
 site: "Una web"
 siteUrl: "http://unaweb.es"
 image: "test.jpg"

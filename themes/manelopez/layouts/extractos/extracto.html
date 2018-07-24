@@ -15,8 +15,15 @@
         <a href="{{ .Permalink }}">{{ .Title }}</a>
     </h2>
 
+    {{ if .Params.group }}
+    <h3>
+        <p>{{ .Params.group }}</p>
+    </h3>
+    {{ end }}
+
     {{ partial "post-meta" . }}
     <p>Publicado en <a href="{{ .Params.siteUrl }}">{{ .Params.site }}</a></p>
+
 </div>
     
 
