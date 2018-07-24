@@ -2,20 +2,30 @@
 title: "Contacto"
 ---
 
+<p>Puedes comunicarte conmigo a través de mis redes sociales: <a href="twitter.com/_manelopez">Twitter</a>, <a href="">otra rrss</a>; o a través del siguiente formulario.</p>
+
 <form action="https://formspree.io/your@email.com"
 method="POST">
 
-<div>
-  <input type="text" placeholder="Nombre" name="name">
+<div class="form-group">
+  <label for="form-name" class="form-label">Nombre</label>
+  <input type="text" name="name" id="form-name">
 </div>
-<div>
-  <input type="email" placeholder="Email" name="_replyto">
+<div class="form-group">
+  <label for="form-name" class="form-label">Correo electrónico</label>
+  <span id="email-hint" class="form-hint">
+      Es necesario verificar tu correo electrónico
+    </span>
+  <input type="email" name="_replyto" id="form-email">
 </div>
-<div>
-  <textarea id="message" placeholder="Escribe aquí tu mensaje" rows="4" required name="message"></textarea>
+<div class="form-group">
+    <label class="form-label" for="message">
+        Mensaje
+    </label>
+  <textarea id="message" rows="4" required name="message"></textarea>
 </div>
 
 
 
-<input type="submit" value="Send">
+<button type="submit" value="Send">Enviar</button>
 </form> 
