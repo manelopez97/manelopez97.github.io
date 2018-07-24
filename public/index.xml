@@ -2,67 +2,67 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mané López</title>
-    <link>http://example.org/</link>
+    <link>https://manelopez.netlify.com/</link>
     <description>Recent content on Mané López</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
     
-	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://manelopez.netlify.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Biografía</title>
-      <link>http://example.org/bio/</link>
+      <link>https://manelopez.netlify.com/bio/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/bio/</guid>
+      <guid>https://manelopez.netlify.com/bio/</guid>
       <description>Mané López nació en Granada en 1997. Desde pequeño se vio inmerso en una familia con intereses musicales. Gracias a su tío abuelo, dueño de Discos Candilejas, circulaban novedades discográficas por su hogar. En su adolescencia se dejó llevar por la necesidad de compartir la música que descubría y fundó un humilde blog que respondía al interés de hablar sobre grupos. Este interés adquirió mayor peso con los años, ya que fueron surgiendo colaboraciones en medios nacionales (Sombras de Gigantes, Youth Live Music, Farhampton Magazine, Hipsterian Circus&amp;hellip;) hasta radicar en El Quinto Beatle, medio musical español donde principalmente redacta críticas, entrevistas y reportajes musicales.</description>
     </item>
     
     <item>
       <title>Contacto</title>
-      <link>http://example.org/contacto/</link>
+      <link>https://manelopez.netlify.com/contacto/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/contacto/</guid>
+      <guid>https://manelopez.netlify.com/contacto/</guid>
       <description>Puedes comunicarte conmigo a través de mis redes sociales: Twitter, otra rrss; o a través del siguiente formulario.
 NombreCorreo electrónicoEs necesario verificar tu correo electrónicoMensajeEnviar </description>
     </item>
     
     <item>
       <title>In a Tidal Wave of Mistery</title>
-      <link>http://example.org/extractos/prueba1/</link>
+      <link>https://manelopez.netlify.com/extractos/prueba1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/extractos/prueba1/</guid>
+      <guid>https://manelopez.netlify.com/extractos/prueba1/</guid>
       <description>Esto es una prueba de contenido en la que digo: bla bla blablabla bla bla bla.
 En este párrafo digo otra cosa.</description>
     </item>
     
     <item>
       <title>Prueba 2</title>
-      <link>http://example.org/extractos/prueba2/</link>
+      <link>https://manelopez.netlify.com/extractos/prueba2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/extractos/prueba2/</guid>
+      <guid>https://manelopez.netlify.com/extractos/prueba2/</guid>
       <description>Esto es una prueba</description>
     </item>
     
     <item>
       <title>Prueba 2</title>
-      <link>http://example.org/extractos/prueba3/</link>
+      <link>https://manelopez.netlify.com/extractos/prueba3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/extractos/prueba3/</guid>
+      <guid>https://manelopez.netlify.com/extractos/prueba3/</guid>
       <description>Esto es una prueba</description>
     </item>
     
     <item>
       <title>Prueba 2</title>
-      <link>http://example.org/extractos/prueba4/</link>
+      <link>https://manelopez.netlify.com/extractos/prueba4/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/extractos/prueba4/</guid>
+      <guid>https://manelopez.netlify.com/extractos/prueba4/</guid>
       <description>Esto es una prueba</description>
     </item>
     

@@ -3,46 +3,46 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://example.org/bio/</loc>
+    <loc>https://manelopez.netlify.com/bio/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/categories/</loc>
+    <loc>https://manelopez.netlify.com/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/contacto/</loc>
+    <loc>https://manelopez.netlify.com/contacto/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/extractos/</loc>
+    <loc>https://manelopez.netlify.com/extractos/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/extractos/prueba1/</loc>
+    <loc>https://manelopez.netlify.com/extractos/prueba1/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/</loc>
+    <loc>https://manelopez.netlify.com/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/extractos/prueba2/</loc>
+    <loc>https://manelopez.netlify.com/extractos/prueba2/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/extractos/prueba3/</loc>
+    <loc>https://manelopez.netlify.com/extractos/prueba3/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/extractos/prueba4/</loc>
+    <loc>https://manelopez.netlify.com/extractos/prueba4/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/tags/</loc>
+    <loc>https://manelopez.netlify.com/tags/</loc>
     <priority>0</priority>
   </url>
   
