@@ -4,16 +4,33 @@
 
     <h1>{{ .Title }}</h1>
 
+    <p>Aquí encontrarás algunos fragmentos de mis últimos artículos junto a los enlaces en los que puedes consultar el texto completo.</p>
+
+    <br>
+
     {{ .Content }}
 
+    {{ $paginator := .Paginate .Data.Pages }}
+
     <div class="extracto-grid">
-        {{ $paginator := .Paginate .Data.Pages }}
         {{ range $paginator.Pages }}
             {{ .Render "extracto" }}
         {{ end }}
     </div>
 
-    {{ template "_internal/pagination.html" . }}
+    <div class="pagination">
+        <div class="pagination-previous">
+            {{ if $paginator.HasPrev }}
+                <p><a class="pagination-previous-link" href="{{ $paginator.Prev.URL }}">← Más reciente</a></p>
+            {{ end }}
+        </div>
+        <div class="pagination-next">
+            {{ if $paginator.HasNext }}
+                <p><a class="pagination-next-link" href="{{ $paginator.Next.URL }}"> Anterior →</a></p>
+            {{ end }}
+        </div>
+        
+    </div>
     
    
 </div>
